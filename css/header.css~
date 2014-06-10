@@ -1,0 +1,17 @@
+h1{
+    font-size: 100px;
+    font:Verdana sans-serif;
+    text-decoration:none;
+    color: white;
+    display:inline;
+}
+
+#header{
+    width:100%;
+    top:0;
+    background-color:#ABABAB;
+}
+
+a{
+    text-decoration:none;
+}

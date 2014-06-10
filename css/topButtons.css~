@@ -1,0 +1,46 @@
+#topButtons {
+    position:absolute;
+    display:table;
+    table-layout:fixed;
+    top:90px;
+    left:0;
+    width:100%;
+}
+
+#topButtons a{
+    display:table-cell;
+    text-align:center;
+    border:1px solid black;
+}
+
+#topButtons a span{
+    font-size:24;
+    text-transform:uppercase;
+    font-family:Gill sans;
+    font-weight:normal;
+}
+
+
+#guide{
+    background:#E18728;
+}
+
+#sippProv{
+    background:#CCCCCC;
+}
+
+#why{
+    background:#4472B9;
+}
+
+#how{
+    background:pink;
+}
+
+#who{
+    background:orange;
+}
+
+#forum{
+    background:purple;
+}

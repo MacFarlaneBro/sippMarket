@@ -1,0 +1,41 @@
+<div id="topButtons">
+  <a href="#" id="guide">
+    <span>Guide
+      <ul id="guideList">
+	<li><a href="#">Who is Charlie?</a></li>
+	<li><a href="#">What is Charlie doing?</a></li>
+	<li><a href="#">Why Charlie?</a></li>
+      </ul>
+    </span>
+  </a>
+  <a href="#" id="sippProv"><span>Sipp Providers</span></a>
+  <a href="#" id="why"><span>Why?</span></a>
+  <a href="#" id="how"><span>How?</span></a>
+  <a href="#" id="who"><span>Who?</span></a>
+  <a href="#" id="forum"><span>Forum</span></a>
+</div>
+<ul id="topList">
+  <li id="aboutMeTop"><a href="./BioFolder/aboutMe.html">About Me</a>
+
+    <ul class="secondLayer" id="aboutMe">
+      <li><a href="#">Who is Charlie?</a></li>
+      <li><a href="#">What is Charlie doing?</a></li>
+      <li><a href="#">Why Charlie?</a></li>
+    </ul>
+  </li>
+  <li id="projectsTop"><a href="./currentProjects/current.xhtml">Current Projects</a>
+    <ul class="secondLayer" id="projects">
+      <li><a href="#">Msc Project</a></li>
+      <li><a href="#">This website</a></li>
+      <li><a href="#">Friends projects</a></li>
+    </ul>
+  </li>
+  <li id="reviewsTop"><a href="./reviews/reviewHome.xhtml">Reviews</a>
+    <ul class="secondLayer" id="reviews">
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">TV</a></li>
+    </ul>
+  </li>
+  <li><a href="./contact/contactHome.html">CV and contact Information</a></li>
+</ul>

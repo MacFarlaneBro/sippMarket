@@ -1,0 +1,144 @@
+body {
+    background-color:#47413A;
+}
+
+#firstPara{
+    position:absolute;
+    top:200;
+    color:black;
+    font-family:verdana;
+    display:inline;
+}
+
+h1 {
+    font-size: 80;
+    font-family: Gotham Rounded B, sans-serif;
+    font-style: normal;
+    color:#003300;
+    float:left, top;
+    display:inline;
+}
+
+h2 { 
+    color: brown;
+    display:inline;
+    top: 40;
+}
+
+a { 
+    font-style:normal;
+    text-decoration:none;
+    color:black;
+}
+
+#header {
+    position:absolute;
+    background-color:#DAD9D8;
+    top:0;
+    height: 90;
+    left:0;
+    width: 100%;
+}
+
+#guide{
+    background:#E18728;
+}
+
+#sippProv{
+    background:#CCCCCC;
+}
+
+#why{
+    background:#4472B9;
+}
+
+#how{
+    background:pink;
+}
+
+#who{
+    background:orange;
+}
+
+#forum{
+    background:purple;
+}
+
+a:hover {
+    color:white;
+}
+
+li a {
+    list-style:none;
+    text-decoration:none;
+    font: 15px Verdana;
+    color:white;
+}
+#topButtons{
+    margin-left:0;
+    padding: 0;
+    color:white;
+    list-style-type: none;
+    text-align: justify;
+    height: 21px;
+}
+
+#topList > li {
+    margin-left:0;
+    width:24%;
+    vertical-align: top;
+    background:gray;
+    position: static;
+    display:inline-block;
+    text-align: center;
+    border:1px solid black;
+    color:white;
+}
+
+#sideBar {
+    z-index:2;
+    position: fixed;
+    height: auto;
+    right: 0;
+    top: 250px;
+    width: auto;
+}
+
+#sideBar > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+#custom-tweet-button {
+    display: block;
+    background: url('tweet.png') 1px center no-repeat;
+  }
+
+.secondLayer{
+    margin: 1px; padding: 0; border:0;
+}
+
+.secondLayer > li {
+    text-align:center;
+    list-style: none;
+    width:100%;
+    margin-left: 0;
+}
+
+.secondLayer > li:hover {
+    text-shadow: 0 2px 2px #4d4d4d;
+    color:orange;
+    background:black;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#currentProjects ul {
+    display:none;
+    float: left;
+}
+#reviews ul {
+    display:none;
+    float: left;
+}
