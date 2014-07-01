@@ -11,7 +11,8 @@
 #topButtons a{
     display:table-cell;
     text-align:center;
-    border:1px solid black;
+    border:5px solid black;
+    color:black;
 }
 
 #topButtons a span{
@@ -19,8 +20,12 @@
     text-transform:uppercase;
     font-family:Gill sans;
     font-weight:normal;
-    color:black;
     font-style:none;
+}
+
+#topButtons a:hover{
+    background-color:black;
+    color:red;
 }
 
 #guide{

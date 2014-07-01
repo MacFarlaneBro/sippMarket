@@ -1,8 +1,14 @@
-#firstPara {
+#Main {
     position:absolute;
     top: 150px;
     float:left;
     width:70%
+}
+
+#cartoon{
+    width:210px;
+    top:15px;
+    float:right;
 }
 
 #blogContainer {
